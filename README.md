@@ -1,0 +1,2 @@
+# JavaScriptBenchmark
+ Simpel JavaScript Benchmark
