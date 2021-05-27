@@ -1,0 +1,56 @@
+*{
+  padding:0;
+  margin:0;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+  background-color:#111;
+}
+
+table{
+	background-color:#555;
+	color:#ddd;
+	font-size:24px;
+}
+
+#a{
+	width: 128px;
+}
+
+#b{
+	width: 276px;
+}
+
+#c{
+	width: 100px;
+}
+
+#container{
+	width:1260px;
+	height:700px;
+	padding:10px;
+	position:relative;
+	margin:calc(50vh - 360px) calc(50vw - 640px) calc(50vh - 360px) calc(50vw - 640px);/* Sometimes auto does not work so calc are used since it always work */
+	background-color:#222;
+}
+
+#canvas{
+	width:640px;
+	height:640px;
+	position:absolute;
+	right:10px;
+	top:10px;
+	background-color:#fff;
+}
+
+.btn{
+	display:inline-block;
+	width:504px;/* 256px with padding */
+	height:56px;/* 64px with padding */
+	padding:4px;
+	background-color:#448;
+	color:#ddd;
+	text-align:center;
+	font-size:48px;
+}
